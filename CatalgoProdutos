@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Protudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cátalogo de Produtos</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Foto</th>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th>Quantidade em Estoque</th>
+                    <th>Valor Unitário</th>
+                </tr>
+            </thead>
 
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="img/img1.jpg" alt="Mouse Laser com fio Dell" class="imagens-produto"></td>
+                    <td>1</td>
+                    <td>Mouse Laser com fio Dell</td>
+                    <td>5</td>
+                    <td>R$179,00</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="img/img2.jpg" alt="Mouse Bluetooth Dell" class="imagens-produto"></td>
+                    <td>2</td>
+                    <td>Mouse Bluetooth Dell</td>
+                    <td>6</td>
+                    <td>R$338,00</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" checked></td>
+                    <td><img src="img/img3.jpg" alt="Mouse óptico USB preto 100" class="imagens-produto"></td>
+                    <td>3</td>
+                    <td>Mouse óptico USB preto 100</td>
+                    <td>3</td>
+                    <td>R$48,30</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Descrição</h2>
+
+        <h3>Características do Produto</h3>
+
+        <label for="especificacoes">Especificações</label>
+            <ul id="especificacoes">
+                <li>Sensor óptico preciso com 1.600 DPI permite que você trabalhe na maioria das superfícies</li>
+                <li>Configuração USB rápida e fácil com cabo de 1,5m</li>
+                <li>Design ambidestro, produzido para caber de forma natural e perfeita na palma da sua mão</li>
+                <li>Três botões integrados</li>
+                <li>Ampla compatibilidade: Windows e Mac</li>
+            </ul>
+
+        <h3>Avaliação do Produto</h3>
+            <dl>
+                <dt>José Aparecido</dt>
+                <dd>Muito bom</dd>
+
+                <dt>Joaquim Jorge</dt>
+                <dd>Bom</dd>
+            </dl>
+    </main>
+</body>
+</html>
